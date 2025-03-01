@@ -1,0 +1,86 @@
+<div class="csb-app" id="csbApp">
+    <div class="csb-top-menu">
+      <app-top-menu></app-top-menu>
+    </div>
+    <div class="csb-container">
+      <div class="csb-content-fluid">
+          <div class="csb-landing" #landingText>
+            <div class="csb-landing-content" id="landingContainer" ariaEnabled [role]="'banner'">
+             <div class="csb-landing-content-text" id="landingText">
+                <h1 class="h2 csb-landing-title">{{titleVO?.name}}</h1>
+                <h2 class="h6 csb-landing-text">{{descriptionVO?.name}}</h2>
+              </div>
+            </div>
+          </div>
+          <div class="csb-landing-map" #landingMap>
+            <ng-template #landingMapComponentRef></ng-template>
+
+            <!-- desktop-vertical&horizontal -->
+            <ng-container *ngIf="mobile==false">
+              <div class="landing-container-desktop">
+                <div class="button-container-desktop">
+                  <div class="card-desktop">
+                    <div class="card-container-horizontal">
+                      <div class="card-content">
+                        <div class="landing-card-title" (click)="onClick('e')"><p class="landing-title-desktop">{{titleE?.name}}</p></div>
+                        <div class="landing-card-descr">
+                          <p class="landing-descr" (click)="onClick('e')">{{descriptionE?.name}}</p>
+                          <a [href]="linkE?.name" class="app-link"><p class="p4 landing-link">{{linkMore?.name}}</p></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-desktop">
+                    <div class="card-container-horizontal">
+                      <div class="card-content">
+                        <div class="landing-card-title" (click)="onClick('av')"><p class="landing-title-desktop">{{titleAV?.name}}</p></div>
+                        <div class="landing-card-descr">
+                          <p class="landing-descr" (click)="onClick('av')">{{descriptionAV?.name}}</p>
+                          <a [href]="linkAV?.name" class="app-link"><p class="p4 landing-link">{{linkMore?.name}}</p></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-desktop">
+                    <div class="card-container-horizontal">
+                      <div class="card-content">
+                        <div class="landing-card-title" (click)="onClick('vp')"><p class="landing-title-desktop">{{titleVP?.name}}</p></div>
+                        <div class="landing-card-descr">
+                          <p class="landing-descr" (click)="onClick('vp')">{{descriptionVP?.name}}</p>
+                          <a [href]="linkVP?.name" class="app-link"><p class="p4 landing-link">{{linkMore?.name}}</p></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </ng-container>
+            <!-- mobile-vertical -->
+            <ng-container *ngIf="mobile==true && horizontal==false">
+              <div class="landing-container-mobile">
+                <div class="button-container-mobile">
+                  <div class="btn btn-primary btn-block btn-landing" (click)="onClick('e')">{{titleEShort?.name}}</div>
+                  <div class="btn btn-primary btn-block btn-landing" (click)="onClick('av')">{{titleAVShort?.name}}</div>
+                  <div class="btn btn-primary btn-block btn-landing" (click)="onClick('vp')">{{titleVPShort?.name}}</div>
+                </div>
+              </div>
+            </ng-container>
+            <!-- mobile-horizontal -->
+            <ng-container *ngIf="mobile==true && horizontal==true">
+              <div class="landing-container-mobile-h">
+                <div class="button-container-mobile-h">
+                  <div class="btn btn-primary btn-block btn-landing-h" (click)="onClick('e')">{{titleEShort?.name}}</div>
+                  <div class="btn btn-primary btn-block btn-landing-h" (click)="onClick('av')">{{titleAVShort?.name}}</div>
+                  <div class="btn btn-primary btn-block btn-landing-h" (click)="onClick('vp')">{{titleVPShort?.name}}</div>
+                </div>
+              </div>
+            </ng-container>
+
+          </div>
+      </div>
+    </div>
+  <app-footer [containerID]="'csbApp'" [scrollTop]="false"></app-footer>
+</div>
+
+
+

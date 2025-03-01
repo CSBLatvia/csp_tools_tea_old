@@ -1,0 +1,79 @@
+@import "../../../../css/app-main-vars";
+@import "../../../../css/app-colors";
+@import "../../../../css/app-icons";
+
+$ico-height:36px;
+$gap: $app-gap-4;
+$pop-gap: 60px;
+$language-menu-height:calc(38px + #{$gap} * 2);
+
+.close-desktop{
+  @extend .ico-pop-close-desktop;
+  @include cursorTouch();
+  top: 0;
+  right: 0;
+  position: absolute;
+  opacity: 0.8;
+}
+.close-desktop:hover{
+  opacity: 1;
+}
+.close-mobile{
+  @extend .ico-pop-close-mobile;
+  @include cursorTouch();
+  top: 0;
+  right: 0;
+  position: absolute;
+  opacity: 0.6;
+}
+.close-mobile:hover{
+  opacity: 0.8;
+}
+
+.pop-layers-mobile{
+  position: absolute;
+  top: calc(#{$ico-height}*2 + #{$gap}*3);
+  right: calc(#{$ico-height} + #{$gap}*2);
+  z-index: 4000;
+  display: block;
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  span,p{
+    color: #ffffff;
+  }
+}
+.pop-layers-desktop{
+  position: absolute;
+  top: calc(#{$language-menu-height} + #{$ico-height}*2 + #{$gap}*2);
+  right: calc(#{$ico-height} + #{$gap}*2);
+  z-index: 4000;
+  display: block;
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  span,p{
+    color: #ffffff;
+  }
+}
+.pop-container{
+  background-color: #ffffff;
+  border-radius: $app-border-radius-default;
+  padding: $app-padding-default;
+  padding-right: 1.2rem;
+  @include defaultGrayBorder();
+  @include defaultDropShadow();
+}
+
+.visible{
+  display: block;
+  touch-action: auto;
+  pointer-events: auto;
+}
+.hidden{
+  display: none;
+  touch-action: none;
+  pointer-events: none;
+}

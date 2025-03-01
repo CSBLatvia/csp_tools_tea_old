@@ -1,0 +1,90 @@
+ @import "./app-colors";
+ @import "app-main-vars";
+
+ /////////////////////////////////
+ /// CLARITY OVERRIDES ///////////
+ /////////////////////////////////
+ // APP
+ /////////////////////////////////
+ .csb-app{
+   display: flex;
+   flex-direction: column;
+   height: 100vh;
+   background: $app-app-background;
+   //////// scroller //////////////
+   overflow-y: scroll;
+   -webkit-overflow-scrolling: touch;
+ }
+ .csb-app-full{
+   width: 100%;
+   /*height: 100%;*/
+   height: var(--HH);
+   position: absolute;
+   padding: 0; margin: 0;
+   background: $app-app-background;
+   overflow: hidden;
+ }
+
+
+ /////////////////////////////////
+ // TOP-MENU
+ /////////////////////////////////
+ .csb-top-menu{
+   position: sticky;
+   top: 0;
+   min-height: $app-top-menu-height;
+   height: $app-top-menu-height;
+   width: 100%;
+   margin: 0 auto;
+   max-width: $app-max-width-top-menu;
+   z-index: 100;
+   background-color: $app-col-top-menu;
+ }
+
+ /////////////////////////////////
+ // CONTAINER
+ /////////////////////////////////
+
+ .csb-container {
+   padding-top: 0;
+   //padding-bottom: $app-top-menu-height;
+   padding-bottom: 0;
+   flex: 1 1 auto;
+
+   @media (min-width: 1500px) {
+     background-image: url("~src/assets/svg/landing_triangle_vertical.svg"), url("~src/assets/svg/landing_triangle_vertical_flip.svg");
+     background-position: left top, right top;
+     background-repeat: repeat-y, repeat-y;
+   }
+ }
+
+ .csb-content-max{
+   width: 100%;
+   margin: 0 auto;
+   max-width: $app-max-width-content;
+   background-color: #ffffff;
+   //////////////////////////////////
+   padding: $app-content-area-padding-top $app-content-area-padding-right $app-content-area-padding-bottom
+   $app-content-area-padding-left;
+
+
+   & > :first-child {
+     margin-top: 0;
+   }
+   padding-top: 0;
+   padding-bottom: $app-footer-height;
+ }
+ .csb-content-fluid{
+   width: 100%;
+   padding: 0;
+   color: #ffffff;
+   height: auto;
+ }
+.csb-input-label{
+  width: 100%;
+  text-align: left;
+  padding-left: 0.5rem;
+}
+ .csb-input-hidden-label{
+   display: none;
+ }

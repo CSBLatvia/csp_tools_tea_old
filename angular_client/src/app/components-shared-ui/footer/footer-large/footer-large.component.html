@@ -1,0 +1,85 @@
+<footer class="app-footer" role="contentinfo">
+
+  <div class="footer-container-top" *ngIf="scrollTop===true">
+    <div class="footer-top">
+      <div class="footer-top-btn" (click)="onTopClick()" aria-disabled="true">
+        <clr-icon shape="angle" size="48" aria-disabled="true" role="img" aria-hidden="true"></clr-icon>
+      </div>
+    </div>
+  </div>
+  <div class="footer-container" #footer id="app-footer">
+    <div class="clr-row">
+      <div class="clr-col-sm-12 clr-col-md-6">
+        <div class="section" ariaEnabled [role]="'region'" [ariaLabelID]="'aria-contacts-block'">
+          <h3 class="footer-big-title">{{groupContactsTitle?.name}}</h3>
+          <div class="clr-row">
+            <div class="clr-col">
+              <div class="footer-block">
+                <div class="section" ariaEnabled [role]="'region'" [ariaLabelID]="'aria-org-block'">
+                  <h4 class="footer-title">{{ownerTitle?.name}}:</h4>
+                  <a [href]="ownerValue?.name" class="footer-link" ariaEnabled [ariaLabelID]="'aria-org-link'">{{ownerValue?.name}}</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="clr-row">
+            <div class="clr-col">
+              <div class="footer-block">
+                <div class="section" ariaEnabled [role]="'region'" [ariaLabelID]="'aria-mail-block'">
+                  <h4 class="footer-title">{{mailTitle?.name}}:</h4>
+                  <a [href]="'mailto:'+mailValue?.name" class="footer-link" ariaEnabled [ariaLabelID]="'aria-mail-link'">{{mailValue?.name}}</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="clr-row">
+            <div class="clr-col">
+              <div class="footer-block">
+                <div class="section" ariaEnabled [role]="'region'" [ariaLabelID]="'aria-phone-block'">
+                  <h4 class="footer-title">{{phoneTitle?.name}}:</h4>
+                  <a [href]="'tel:'+phoneValue?.name" class="footer-link" ariaEnabled [ariaLabelID]="'aria-phone-link'">{{phoneValue?.name}}</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clr-col-sm-12 clr-col-md-6">
+        <div class="section" ariaEnabled [role]="'region'" [ariaLabelID]="'aria-other-block'">
+          <h3 class="footer-big-title">{{groupOtherTitle?.name}}</h3>
+          <div class="clr-row">
+            <div class="clr-col">
+              <div class="footer-block">
+                <div class="section" ariaEnabled [role]="'region'" [ariaLabelID]="'aria-about-block'">
+                  <h4 class="footer-title">{{aboutTitle?.name}}:</h4>
+                  <a routerLink="/{{route?.lang}}/about" class="footer-link" ariaEnabled [ariaLabelID]="'aria-about-link'">{{aboutValue?.name}}</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="clr-row">
+            <div class="clr-col">
+              <div class="footer-block">
+                <div class="section" ariaEnabled [role]="'region'" [ariaLabelID]="'aria-api-block'">
+                  <h4 class="footer-title">{{apiTitle?.name}}:</h4>
+                  <a routerLink="/{{route?.lang}}/api" class="footer-link" ariaEnabled [ariaLabelID]="'aria-api-link'">{{apiValue?.name}}</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="clr-row">
+            <div class="clr-col">
+              <div class="footer-block">
+                <div class="section" ariaEnabled [role]="'region'" [ariaLabelID]="'aria-api-block'">
+                  <img src="assets/img/eu_white_200x45_en.png" *ngIf="route.lang=='en'"/>
+                  <img src="assets/img/eu_white_200x45_lv.png" *ngIf="route.lang=='lv'"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+

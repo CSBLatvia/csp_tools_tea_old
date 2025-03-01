@@ -1,0 +1,5 @@
+  <div #header id="header">
+    <app-top-menu-desktop *ngIf="mobile==false&&view!=='map' && initialized==true"></app-top-menu-desktop>
+    <app-top-menu-desktop-full *ngIf="mobile==false&&view=='map' && initialized==true"></app-top-menu-desktop-full>
+    <app-top-menu-mobile  *ngIf="mobile==true && initialized==true"></app-top-menu-mobile>
+  </div>

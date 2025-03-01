@@ -1,0 +1,54 @@
+<div  id="map-area" class="map-area" [ngClass]="backgroundLight===true?'light':'dark'">
+      <app-map-title [mobile]="mobile" [settingsVisible]="settingsVisible"></app-map-title>
+      <div class="map" id="map" #mapRef></div>
+      <div class="viz-container">
+        <app-viz-map [mobile]="mobile"></app-viz-map>
+      </div>
+      <div class="pop-legend-container" #legendContainer id="legendContainer"></div>
+      <div class="pop-layers-container" #layersContainer></div>
+      <div class="controls-container" #controlsContainer></div>
+      <div class="loader" #loaderContainer>
+        <span class="spinner spinner-inverse spinner-md"></span>
+      </div>
+
+      <map-no-data-info *ngIf="dataIsNotComplete==true"></map-no-data-info>
+
+      <ng-container>
+        <div class="map-control-TL" *ngIf="mapFullScreen==false&&settingsVisible==false">
+          <div (click)="onSettingsClick(true)" ariaEnabled [role]="'button'" [ariaLabelID]="'aria-settings'" id="settings-open">
+            <div class="settings-blue-ico" aria-disabled="true"></div>
+          </div>
+        </div>
+        <div class="map-control-TR">
+          <div (click)="onZoomClick(1)" [ngClass]="ZOOM_IN_ENABLED==true?'enabled':'disabled'" ariaEnabled [role]="'button'" [ariaLabelID]="'aria-zoom-in'" id="zoom-in">
+            <div class="zoom-in-ico zoom-ico" aria-disabled="true"></div>
+          </div>
+          <div (click)="onZoomClick(-1)" [ngClass]="ZOOM_OUT_ENABLED==true?'enabled':'disabled'" ariaEnabled [role]="'button'" [ariaLabelID]="'aria-zoom-out'" id="zoom-out">
+            <div class="zoom-out-ico zoom-ico" aria-disabled="true"></div>
+          </div>
+        </div>
+        <div class="map-control-BL" *ngIf="legendIsVisible==false">
+          <div (click)="onLegendClick(true)" ariaEnabled [role]="'button'" [ariaLabelID]="'aria-legend'" id="legend">
+            <div class="legend-ico" aria-disabled="true"></div>
+          </div>
+        </div>
+        <div class="map-control-BR">
+          <div (click)="onFullscreenClick(true)" *ngIf="mapFullScreen==false" ariaEnabled [role]="'button'" [ariaLabelID]="'aria-full-screen-max'" id="fullscreen-max">
+            <div class="full-screen-max-ico" aria-disabled="true"></div>
+          </div>
+          <div (click)="onFullscreenClick(false)" *ngIf="mapFullScreen==true" ariaEnabled [role]="'button'" [ariaLabelID]="'aria-full-screen-min'" id="fullscreen-min">
+            <div class="full-screen-min-ico" aria-disabled="true"></div>
+          </div>
+        </div>
+      </ng-container>
+      <div class="controls-top">
+
+      </div>
+      <div class="controls-bottom">
+
+      </div>
+
+      <all-pops [showLocalizations]="true"></all-pops>
+      <div class="copyright" *ngIf="THEME=='map_osm'" [innerHTML]="copyrightOSM_VO?.name"></div>
+      <div class="copyright" *ngIf="THEME=='map_orto'" [innerHTML]="copyrightORTO_VO?.name"></div>
+</div>

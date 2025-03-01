@@ -1,0 +1,36 @@
+<div id="data-dummy"></div>
+<div [ngClass]="type==1?'container':'container-overlay'">
+    <div class="download-area">
+      <span>{{downloadButtonLabelVO?.name}}</span><br>
+      <button class="btn btn-icon btn-primary download-btn" (click)="onDownloadClick()">
+        <span style="padding-right: 0.5rem">{{downloadButtonVO?.name}}</span>
+        <clr-icon shape="download"></clr-icon>
+      </button>
+    </div>
+    <div class="table-title">
+      <p class="p6 mod--no-gap">{{titlesVO?.table_title}}</p>
+    </div>
+    <div class="sort-block">
+      <div class="sort-block-area">
+        <div (click)="onSortClick(1)" [ngClass]="sortType==1?'sort-item sort-one':'sort-item-disabled sort-one'">
+          <div class="txt-item">
+            <p class="p7 title-name">{{titlesVO?.table_col_1_title}}</p>
+          </div>
+          <clr-icon shape="angle" size="12" [ngClass]="sort_order_one==1?'ico_down':'ico_up'"></clr-icon>
+        </div>
+        <div (click)="onSortClick(2)" [ngClass]="sortType==2?'sort-item sort-two':'sort-item-disabled sort-two'">
+          <div class="txt-item">
+            <p class="p7 title-value-one">{{titlesVO?.table_col_2_title}}</p>
+          </div>
+          <clr-icon shape="angle" size="12" [ngClass]="sort_order_two==1?'ico_down':'ico_up'"></clr-icon>
+        </div>
+        <div (click)="onSortClick(3)" [ngClass]="sortType==3?'sort-item sort-three':'sort-item-disabled sort-three'">
+          <div class="txt-item">
+            <p class="p7 title-value-two">{{titlesVO?.table_col_3_title}}</p>
+          </div>
+          <clr-icon shape="angle" size="12" [ngClass]="sort_order_three==1?'ico_down':'ico_up'"></clr-icon>
+        </div>
+      </div>
+    </div>
+</div>
+

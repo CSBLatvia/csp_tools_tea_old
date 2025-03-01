@@ -1,0 +1,8 @@
+<app-data-table-header></app-data-table-header>
+<div class="table-container" id="data-table">
+    <dl class="stack-view">
+      <ng-container *ngFor="let vo of data">
+        <app-settings-data-table-item [vo]="vo" [roundValues]="roundValues"></app-settings-data-table-item>
+      </ng-container>
+    </dl>
+</div>

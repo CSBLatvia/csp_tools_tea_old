@@ -1,0 +1,48 @@
+@import "../../../../../../../../../../css/app-main-vars";
+@import "../../../../../../../../../../css/app-modifiers";
+@import "../../../../../../../../../../css/app-colors";
+
+.stack-block-content{
+  @extend .stack-block-content;
+  flex: 0 0 0;
+  max-width: 0; width: 100% !important;
+  display: none;
+}
+.stack-block-label {
+  @extend .stack-block-label;
+  flex: 0 0 100%;
+  max-width: 100%; width: 100% !important;
+  box-sizing: border-box;
+}
+.stack-view .stack-block-label {
+  flex: 0 0 100%;
+  max-width: 100%; width: 100% !important;
+  box-sizing: border-box;
+}
+
+
+.csb-stack-view-content{
+  display: flex;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.csb-stack-item-name{
+  flex: 0.35 0.35 0;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  text-align: left;
+}
+.csb-stack-item-value-one{
+  flex: 0.34 0.34 0;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  text-align: right;
+}
+.csb-stack-item-value-two{
+  flex: 0.31 0.31 0;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  text-align: right;
+}

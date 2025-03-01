@@ -1,0 +1,13 @@
+
+<ng-container *ngIf="mobile==false">
+
+  <div [ngClass]="settingsVisible==true?'map-title-desktop':'map-title-desktop-settings-hidden'">
+    <h4 class="txt-desktop">{{titlesVO?.map_title}}</h4>
+  </div>
+</ng-container>
+
+<ng-container *ngIf="mobile==true">
+  <div [ngClass]="'map-title-mobile'">
+    <h6 class="txt-mobile">{{titlesVO?.map_title}}</h6>
+  </div>
+</ng-container>

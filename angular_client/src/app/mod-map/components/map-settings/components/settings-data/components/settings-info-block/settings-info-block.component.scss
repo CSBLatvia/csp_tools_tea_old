@@ -1,0 +1,38 @@
+@import "../../../../../../../../css/app-main-vars";
+@import "../../../../../../../../css/app-modifiers";
+@import "../../../../../../../../css/app-colors";
+
+.info-block-container{
+  padding: 0.75rem;
+  margin: 0;
+  background-color: $app-col-primary;
+
+  h4{
+    padding: 0; margin: 0;
+    color: #ffffff;
+  }
+  p{
+    padding: 0; margin: 0;
+    padding-top: 0;
+    color: #ffffff;
+  }
+  .debug-txt{
+    background-color: $app-col-primary-dark;
+    color:#ffffff;
+    width: fit-content;
+    padding: 0.125rem 0.25rem 0.125rem 0.25rem;
+    border-radius: 0.25rem;
+  }
+  min-height: 100px;
+
+  ///////////////////
+  // SVG patern
+  //////////////////
+  background-image:
+    //linear-gradient(163deg, rgba(2, 68, 142,0.4) 10%, rgba(99, 167, 247, 0.4) 90%),
+    url("~src/assets/svg/landing_pattern.svg"),
+    linear-gradient(163deg, $app-col-primary-dark-4 10%, rgba(99, 167, 247, 1) 90%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

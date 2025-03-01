@@ -1,0 +1,178 @@
+@import "../../../../css/app-main-vars";
+@import "../../../../css/app-colors";
+@import "../../../../css/app-icons";
+
+
+
+.csb-map-menu{
+  pointer-events: auto; touch-action: auto;
+  margin: 0; padding: 0;
+
+  width: $app-map-menu-width;
+  top: $app-top-menu-height;
+  height: calc(100% - #{$app-top-menu-height} - #{$app-footer-height});
+  background-color: $app-col-panel-background;
+  border-right: 1px solid #DFE3E6;
+  position: absolute;
+  z-index: 20000;
+}
+.csb-map-menu-mobile{
+  pointer-events: auto; touch-action: auto;
+  margin: 0; padding: 0;
+
+  width: 100%;
+  top: $app-top-menu-height;
+  height: calc(100% - #{$app-top-menu-height} - #{$app-footer-height});
+  background-color: $app-col-panel-background;
+  border-right: 1px solid #DFE3E6;
+  position: absolute;
+  z-index: 20000;
+
+}
+.csb-map-menu-hidden{
+  pointer-events: none; touch-action: none;
+  //width: 0; height: 0;
+  opacity: 0;
+}
+
+
+
+.visible{
+  pointer-events: auto;
+  touch-action: auto;
+}
+.hidden{
+  pointer-events: none;
+  touch-action: none;
+  opacity: 0;
+}
+
+.settings-container{
+  background-color: $app-vis-bg;
+}
+.settings-block{
+  padding: 0.5rem;
+  background-color: $app-vis-bg;
+}
+.settings-block-last{
+  padding: 0.5rem;
+  padding-bottom: 1.5rem;
+  background-color: $app-vis-bg;
+}
+.settings-row{
+  display: inline-block;
+}
+.settings-block-header-top{
+  padding: 0.5rem;
+  background-color: $app-col-primary-dark-1;
+  min-height: 140px;
+
+  ///////////////////
+  // SVG patern
+  //////////////////
+  background-image:
+
+    //linear-gradient(163deg, rgba(2, 68, 142,0.4) 10%, rgba(99, 167, 247, 0.4) 90%),
+    url("~src/assets/svg/landing_pattern.svg"),
+    linear-gradient(163deg, $app-col-primary-dark-4 10%, rgba(99, 167, 247, 1) 90%);
+
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.settings-block-header-update{
+  padding: 0.5rem;
+  background-color: $app-col-primary-dark-1;
+}
+.white-txt{
+  color: #ffffff !important;
+  margin: 0 !important;
+}
+.txt-block{
+  padding: 0.5rem;
+}
+.scrollable-area{
+  overflow-y: auto;
+}
+.settings-block-half{
+  width: 50%;
+  float: left;
+  position: relative;
+}
+.btn-map-controls{
+  position: absolute;
+  top: 0;
+  right: 0;
+  span{
+    color: #ffffff;
+  }
+  background-color: $app-col-primary-dark-3;
+  border-radius: $app-border-radius-default*1.5;
+  padding: 0.25rem;
+  padding-left: 0.5rem;
+  margin: 0.25rem;
+
+}
+.settings-blue-ico{
+  @extend .ico-settings-blue;
+  width: 30px;
+  height: 30px;
+  opacity: 1;
+}
+.settings-white-ico{
+  @extend .ico-settings-white;
+  width: 30px;
+  height: 30px;
+  opacity: 1;
+}
+
+.settings-button{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 0.25rem;
+  right: 0.25rem;
+  //@include smallDropShadow();
+}
+.settings-button-mobile{
+  height: 30px;
+  position: absolute;
+  top: 0.25rem;
+  right: 0.25rem;
+
+  display: flex;
+  justify-items: center;
+  align-items: center;
+
+  span{
+    color: #ffffff !important;
+    padding-left: 0.6rem;
+    padding-right: 0.2rem;
+    text-transform: uppercase;
+    font-size: 0.55rem;
+    line-height: 0.55rem;
+  }
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.1);
+  //@include smallDropShadow();
+}
+.settings-ico-close{
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.settings-ico{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+.settings-ico-mobile{
+  margin-left: 5px;
+}
+.settings-block-download{
+  @extend .settings-block;
+  padding: 0 !important;
+  margin: 0 !important;
+}

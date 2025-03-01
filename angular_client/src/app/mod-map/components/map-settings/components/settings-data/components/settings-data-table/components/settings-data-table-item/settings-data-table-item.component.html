@@ -1,0 +1,15 @@
+<div [ngClass]="arrowClass">
+  <dt class="stack-block-label" (click)="onItemClick(vo)">
+    <div class="csb-stack-view-content">
+      <div class="csb-stack-item-name">{{vo.title.name}}</div>
+      <div class="csb-stack-item-value-one">{{roundValues==true?vo.value_round:vo.value}}</div>
+      <div class="csb-stack-item-value-two">{{vo.value_calc}}</div>
+    </div>
+  </dt>
+  <div class="stack-children" *ngIf="open==true">
+    <ng-container *ngFor="let item of vo.data">
+      <app-settings-data-table-item [vo]="item" [roundValues]="roundValues"></app-settings-data-table-item>
+    </ng-container>
+  </div>
+</div>
+

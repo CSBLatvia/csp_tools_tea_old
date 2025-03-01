@@ -1,0 +1,19 @@
+<div class="info-block-container">
+  <h4>{{selectedRegion?.name}}</h4>
+
+  <ng-container *ngIf="info!==null">
+
+    <ng-container *ngIf="info.error==false">
+      <p [innerHTML]="textHTMLValue"></p>
+    </ng-container>
+
+    <ng-container *ngIf="info.error==true">
+      <p>deb_par: {{info.parameters}}</p>
+      <p>{{info.error_info}}</p>
+    </ng-container>
+
+
+  </ng-container>
+
+</div>
+

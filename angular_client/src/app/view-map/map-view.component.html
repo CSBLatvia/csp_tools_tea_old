@@ -1,0 +1,25 @@
+<ng-container *ngIf="initialized==true">
+  <div class="csb-app-full" id="csbApp">
+    <app-top-menu></app-top-menu>
+    <span>{{mapTitle?.name}}</span>
+    <app-map-settings
+        [route]="route"
+        [lang]="lang"
+        [mobile]="mobile"
+        [visible]="dom.mapMenu.visible"
+        (onSettingsChange)="onSettingsChange($event)"
+    ></app-map-settings>
+    <app-map
+        [route]="route"
+        [lang]="lang"
+        [mobile]="mobile"
+        [initialized]="initialized"
+        [settingsVisible]="dom.mapMenu.visible"
+        [mapIsFullScreen]="dom.mapIsFullScreen"
+        [legendIsVisible]="dom.legendIsVisible"
+    >
+    </app-map>
+    <app-footer [containerID]="'csbApp'"></app-footer>
+  </div>
+</ng-container>
+

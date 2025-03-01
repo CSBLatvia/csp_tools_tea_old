@@ -1,0 +1,54 @@
+<div [ngClass]="dom.mapMenu.visible==true?(mobile==false?'csb-map-menu':'csb-map-menu-mobile'):'csb-map-menu-hidden'" id="csb-map-menu" >
+  <div #settings [ngClass]="visible==true?'visible':'hidden'">
+  <div class="settings-block-header-top" #settingsHeader>
+    <div class="settings-button" *ngIf="mobile==false">
+        <div class="settings-ico-close" (click)="onSettingsClose()" role="button">
+          <clr-icon shape="angle" dir="left" size="20" class="is-inverse settings-ico"></clr-icon>
+        </div>
+    </div>
+    <div class="settings-button-mobile" *ngIf="mobile==true" (click)="onSettingsClose()" role="button">
+      <span>{{settingsButtonCloseVO?.name}}</span>
+      <clr-icon shape="angle" dir="right" size="20" class="is-inverse settings-ico-mobile"></clr-icon>
+    </div>
+    <div class="txt-block">
+      <h2 class="white-txt">{{titleVO?.name}}</h2>
+      <p class="white-txt">{{descriptionVO?.name}}</p>
+    </div>
+    <!-- M1(toggle) - darba vieta/dzīvesvieta -->
+    <div class="controls-block-direction">
+      <app-ui-control-large-toggle *ngIf="initialized==true" [control_id]="'m1'" (onChange)="onChangeM1($event)" [values]="m1_data"  [id]="m1" [lang]="lang" [label]="m1_label"></app-ui-control-large-toggle>
+    </div>
+  </div>
+  <div class="scrollable-area" #scrollableArea>
+    <ng-scrollbar #scrollBarDesktopRef>
+      <div class="settings-block">
+        <app-ui-control-dropdown  *ngIf="initialized==true" [control_id]="'m2'" (onChange)="onChangeM2($event)"  [values]="m2_data" [id]="m2" [lang]="lang" [label]="m2_label" [itemsMinCount]="3" [itemsMaxCount]="3"></app-ui-control-dropdown>
+      </div>
+      <div class="settings-block">
+        <!-- TODO - can be switched off -->
+        <!-- M3(combo) - industry/profession/sektor -->
+        <app-ui-control-combo-box *ngIf="initialized==true" [control_id]="'m3'" (onChange)="onChangeM3($event)" [values]="m3_data" [id]="m3" [lang]="lang" [label]="m3_label" [canBeSwitchedOf]="true"></app-ui-control-combo-box>
+        <!-- M4(dropdown) M4_values -->
+        <app-ui-control-dropdown *ngIf="initialized==true" [control_id]="'m4'" (onChange)="onChangeM4($event)" [values]="m4_data" [id]="m4" [lang]="lang" [loading]="m4_loading" [disabled]="m4_disabled" [itemsMinCount]="3" [itemsMaxCount]="5"></app-ui-control-dropdown>
+      </div>
+      <div class="settings-block-last">
+        <!-- teritorijas izvēle-1-->
+        <app-ui-control-dropdown *ngIf="initialized==true" [control_id]="'t1'" (onChange)="onChangeT1($event)" [values]="t1_data" [id]="t1" [lang]="lang" [label]="t1_label" [itemsMinCount]="3" [itemsMaxCount]="3"></app-ui-control-dropdown>
+        <!-- teritorijas izvēle-2-->
+        <app-ui-control-dropdown *ngIf="initialized==true" [control_id]="'t2'" (onChange)="onChangeT2($event)" [values]="t2_data" [id]="t2" [lang]="lang" [loading]="t2_loading" [searchable]="true" [searchTitle]="t2_search_label" [itemsMinCount]="5" [itemsMaxCount]="5"></app-ui-control-dropdown>
+
+        <!-- gada izvēle-->
+        <app-ui-control-dropdown *ngIf="initialized==true" [control_id]="'year'" (onChange)="onChangeYear($event)" [values]="y_data" [id]="y" [lang]="lang" [label]="y_label" [loading]="y_loading" [searchable]="false" [itemsMinCount]="4" [itemsMaxCount]="4"></app-ui-control-dropdown>
+
+      </div>
+      <settings-data [lang]="lang"></settings-data>
+    </ng-scrollbar>
+  </div>
+</div>
+</div>
+
+
+
+
+
+

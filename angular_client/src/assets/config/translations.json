@@ -1,0 +1,1142 @@
+{
+    "top-menu-title": [
+        "tea.csb.gov.lv",
+        "tea.csb.gov.lv",
+        true,
+        false
+    ],
+    "top-menu-button-lv": [
+        "LV",
+        "LV",
+        true,
+        false
+    ],
+    "top-menu-button-en": [
+        "EN",
+        "EN",
+        true,
+        false
+    ],
+    "language-lv": [
+        "LV",
+        "LV",
+        true,
+        false
+    ],
+    "language-en": [
+        "EN",
+        "EN",
+        true,
+        false
+    ],
+    "language-full-lv": [
+        "Latviski",
+        "Latviski",
+        true,
+        false
+    ],
+    "language-full-en": [
+        "English",
+        "English",
+        true,
+        false
+    ],
+    "landing-title-av-short": [
+        "Pievienotā vērtība",
+        "Value added",
+        true,
+        false
+    ],
+    "landing-link-av": [
+        "https://tea.csb.gov.lv/lv/about",
+        "https://tea.csb.gov.lv/en/about",
+        true,
+        false
+    ],
+    "landing-link-e": [
+        "https://tea.csb.gov.lv/lv/about",
+        "https://tea.csb.gov.lv/en/about",
+        true,
+        false
+    ],
+    "landing-link-vp": [
+        "https://tea.csb.gov.lv/lv/about",
+        "https://tea.csb.gov.lv/en/about",
+        true,
+        false
+    ],
+    "m2-label": [
+        "Rādītāja izvēle",
+        "Variable selection",
+        true,
+        false
+    ],
+    "territories-1": [
+        "Statistiskie reģioni",
+        "Statistical regions",
+        true,
+        false
+    ],
+    "territories-3": [
+        "Pašvaldības",
+        "Municipalities",
+        true,
+        false
+    ],
+    "territories-4": [
+        "Pagasti un pilsētas",
+        "Rural territories, towns and cities",
+        true,
+        false
+    ],
+    "territories-7": [
+        "Blīvi apdzīvotas teritorijas",
+        "Densely populated areas",
+        true,
+        false
+    ],
+    "about-view-close": [
+        "atpakaļ",
+        "back",
+        true,
+        false
+    ],
+    "map-layer-light": [
+        "Gaišs fons",
+        "Light background",
+        true,
+        false
+    ],
+    "map-layer-dark": [
+        "Tumšs fons",
+        "Dark background",
+        true,
+        false
+    ],
+    "map-layer-osm": [
+        "OpenStreetMap",
+        "OpenStreetMap",
+        true,
+        false
+    ],
+    "table-download": [
+        "Lejupielādēt datus",
+        "Download data",
+        true,
+        false
+    ],
+    "csv-column-region-code": [
+        "Teritorijas kods",
+        "Territory code",
+        true,
+        false
+    ],
+    "csv-column-region-name": [
+        "Teritorijas nosaukums",
+        "Territory name",
+        true,
+        false
+    ],
+    "csv-i": [
+        "Nozare",
+        "Industry",
+        true,
+        false
+    ],
+    "csv-p": [
+        "Profesija",
+        "Occupation",
+        true,
+        false
+    ],
+    "csv-s": [
+        "Sektors",
+        "Sector",
+        true,
+        false
+    ],
+    "csv-total": [
+        "Kopā",
+        "Total",
+        true,
+        false
+    ],
+    "map-layer-orto": [
+        "Ortofoto",
+        "Orthophoto",
+        true,
+        false
+    ],
+    "legend-sizes-circle-min-e": [
+        "<[value]",
+        "<[value]",
+        true,
+        false
+    ],
+    "m1-value-1": [
+        "Darba vieta",
+        "Place of work",
+        true,
+        false
+    ],
+    "territories-all-loc": [
+        "Latvijā",
+        "in Latvia",
+        true,
+        false
+    ],
+    "m2-value-3": [
+        "Produkcijas vērtība",
+        "Value produced",
+        true,
+        false
+    ],
+    "t1-label": [
+        "Teritorijas izvēle",
+        "Select geographical breakdown",
+        true,
+        false
+    ],
+    "footer-about": [
+        "Par projektu",
+        "About the project",
+        true,
+        false
+    ],
+    "legend-sizes-circle-area-e": [
+        "[area] px² = [value]",
+        "[area] px² = [value]",
+        true,
+        false
+    ],
+    "m3-value-1": [
+        "Nozares",
+        "Industry",
+        true,
+        false
+    ],
+    "m3-value-2": [
+        "Profesijas",
+        "Occupation",
+        true,
+        false
+    ],
+    "m3-value-3": [
+        "Sektori",
+        "Sector",
+        true,
+        false
+    ],
+    "landing-title-vp-short": [
+        "Produkcijas vērtība",
+        "Value produced",
+        true,
+        false
+    ],
+    "footer-about-title": [
+        "Par projektu",
+        "About project",
+        true,
+        false
+    ],
+    "ui-dropdown-2-label": [
+        "Teritorijas izvēle",
+        "Select area",
+        true,
+        false
+    ],
+    "legend-clusters-impossible": [
+        "vērtība nav iespējama",
+        "value not possible",
+        true,
+        false
+    ],
+    "m3-label": [
+        "Papildus dalījums",
+        "Breakdown by",
+        true,
+        false
+    ],
+    "m2-value-2": [
+        "Pievienotā vērtība",
+        "Value added",
+        true,
+        false
+    ],
+    "csv-column-one_w_e": [
+        "Darbvietu skaits",
+        "Number of workplaces",
+        true,
+        false
+    ],
+    "m1-value-2": [
+        "Dzīves vieta",
+        "Place of residence",
+        true,
+        false
+    ],
+    "landing-title-vp": [
+        "Produkcijas vērtība",
+        "Value produced",
+        true,
+        false
+    ],
+    "about-view-title": [
+        "Jautājumi un atbildes",
+        "Questions and answers",
+        true,
+        false
+    ],
+    "settings-title": [
+        "Ekonomisko aktivitāti raksturojoši rādītāji pēc personas dzīves un darba vietas par 2017. gadu",
+        "Indicators on economic activity by person&apos;s place of residence and work in 2017",
+        true,
+        false
+    ],
+    "territories-all": [
+        "Latvija",
+        "Latvia",
+        true,
+        false
+    ],
+    "legend-sizes-circle-area-no-data": [
+        "[area] px² = trūkst datu",
+        "[area] px² = no data",
+        true,
+        false
+    ],
+    "t2-search-label": [
+        "Meklēt teritoriju",
+        "Search for territory",
+        true,
+        false
+    ],
+    "legend-sizes-circle-min-vp": [
+        "<[value]",
+        "<[value]",
+        true,
+        false
+    ],
+    "legend-sizes-circle-min-av": [
+        "<[value]",
+        "<[value]",
+        true,
+        false
+    ],
+    "landing-title": [
+        "Ekonomisko aktivitāti raksturojoši rādītāji pēc personas dzīves un darba vietas par [year]. gadu",
+        "Indicators on economic activity by person&apos;s place of residence and work in [year]",
+        true,
+        false
+    ],
+    "landing-link-more": [
+        "Lasīt vairāk",
+        "Read more",
+        true,
+        false
+    ],
+    "legend-sizes-circle-area-vp": [
+        "[area] px² = [value]",
+        "[area] px² = [value]",
+        true,
+        false
+    ],
+    "legend-sizes-circle-area-av": [
+        "[area] px² = [value]",
+        "[area] px² = [value]",
+        true,
+        false
+    ],
+    "m2-value-1": [
+        "Darbvietu vai nodarbināto skaits",
+        "Number of workplaces or employees",
+        true,
+        false
+    ],
+    "landing-title-e": [
+        "Darbvietu vai nodarbināto skaits",
+        "Number of workplaces or employees",
+        true,
+        false
+    ],
+    "landing-title-e-short": [
+        "Darbvietu vai nodarbināto skaits",
+        "Number of workplaces or employees",
+        true,
+        false
+    ],
+    "csv-column-two_h_av": [
+        "Pievienotā vērtība uz vienu nodarbināto",
+        "Value added per employee",
+        true,
+        false
+    ],
+    "file-m1-w": [
+        "darba-vieta",
+        "workplace",
+        true,
+        false
+    ],
+    "file-m1-h": [
+        "dzives-vieta",
+        "place-of-residence",
+        true,
+        false
+    ],
+    "file-m2-e": [
+        "nodarbinato-skaits",
+        "number-of-employees",
+        true,
+        false
+    ],
+    "file-m2-av": [
+        "pievienota-vertiba",
+        "value-added",
+        true,
+        false
+    ],
+    "file-m3-i": [
+        "nozare",
+        "industry",
+        true,
+        false
+    ],
+    "file-m3-p": [
+        "profesija",
+        "occupation",
+        true,
+        false
+    ],
+    "file-m3-s": [
+        "sektors",
+        "sector",
+        true,
+        false
+    ],
+    "file-m3-top-i": [
+        "top-nozares",
+        "top-industries",
+        true,
+        false
+    ],
+    "file-m3-top-p": [
+        "top-profesijas",
+        "top-occupations",
+        true,
+        false
+    ],
+    "file-m3-top-s": [
+        "top-sektori",
+        "top-sectors",
+        true,
+        false
+    ],
+    "file-t1-3": [
+        "teritorija-3",
+        "territory-3",
+        true,
+        false
+    ],
+    "file-t1-4": [
+        "teritorija-4",
+        "territory-4",
+        true,
+        false
+    ],
+    "file-t1-7": [
+        "teritorija-7",
+        "territory-7",
+        true,
+        false
+    ],
+    "file-assoc": [
+        "csv",
+        "csv",
+        true,
+        false
+    ],
+    "m4-label": [
+        "",
+        "",
+        true,
+        false
+    ],
+    "m1-label": [
+        "",
+        "",
+        true,
+        false
+    ],
+    "about-view-description": [
+        "<p>Rīks sniedz atbalstu ekonomisko rādītāju analīzei pēc iedzīvotāja dzīvesvietas vai darba vietas. Izmantojot rīku iespējams analizēt teritorijā dzīvojošo darba vietu ģeotelpisko novietojumu, teritorijā notiekošās ekonomiskās aktivitātes - noskaidrot svarīgākās nozares, kurās strādā teritorijas uzņēmumi vai teritorijā dzīvojošie.</p> <h3 class=\"header-3\">Terminu skaidrojums</h3> <h4 class=\"header-4\">Pievienotā vērtība</h4> <p>Pievienotā vērtība ir ražošanas vienības (uzņēmuma, vietējās vienības, vietējās darbības veida vienības) saražotā produkta/sniegtā pakalpojuma tirgus vērtības pieaugums, kas radies saimnieciskās darbības rezultātā. <br><br> Pievienoto vērtību aprēķina no saražotās produkcijas vērtības atskaitot starppatēriņa vērtību (ražošanā izlietoto pirkto preču un pakalpojumu vērtību). <br><br> Negatīva pievienotā vērtība tiek uzskatīta par 0.</p> <h4 class=\"header-4\">Saražotās produkcijas vērtība</h4> <p>Saražotās produkcijas vērtība ir saražotās produkcijas vai sniegto pakalpojumu apjoms, ieskaitot krājumu izmaiņas un kapitalizēto produkciju (saviem spēkiem saražotos pamatlīdzekļus un nemateriālos ieguldījumus), atskaitot tālākai pārdošanai iegādātās preces un pakalpojumus. <br><br> Produkcijas vērtība var būt negatīva, ja uzņēmumam, salīdzinot ar gada sākumu, pārskata gada beigās ir samazinājušies gatavās un nepabeigtās produkcijas krājumi. Arī preces, kas ir pārdotas zem pašizmaksas, veido negatīvu produkcijas vērtību. Negatīva saražotās produkcijas vērtība tiek uzskatīta par 0.</p> <h4 class=\"header-4\">Nodarbinātie</h4> <p>Nodarbinātie ir darbinieki ar darba vai uzņēmuma līgumu gan pamatdarbā, gan blakusdarbā, darba devēji un pašnodarbinātie.</p> <h4 class=\"header-4\">Darba vieta</h4> <p>Darba vieta ir uzņēmuma, tā vietējās darbības veida vienības (filiāles, ražotnes) adrese. Vietējās vienības adrese tiek izmantota tikai gadījumā, ja uzņēmums pats to ir reģistrējis Valsts ieņēmumu dienestā (VID) vai uzrādījis, aizpildot statistiskas veidlapu.<br><br> Vietējā darbības veida vienība (VDVV) ir konkrētā adresē realizēta ekonomiskā darbība (VDVV tiek izdalītas arī palīgnozarēm).Pavisam datu kopā ir 156 549 VDVV.<br><br> Pašnodarbinātām personām darba vietas adrese ir personas dzīvesvieta. Aprēķinos izmantoti dati par 47 tūkstošiem pašnodarbināto personu.</p> <h4 class=\"header-4\">Vietējā darbības veida vienība (VDVV)</h4> <p>Katrā uzņēmumā ir vismaz viena vietējā darbības veida vienība. Vietējā darbības veida vienība tiek tiek uzskaitīta tikai tad, ja tā atrodas ģeogrāfiski identificējamā vietā, šajā vietā tiek veikta saimnieciskā darbība un atbilstošajā laika periodā tiek nodarbināts viens vai vairāki cilvēki, neatkarīgi no tā, vai tie bija aktīvi visu pārskata periodu vai tikai daļu no tā.<br><br> Ja vienā adresē bija divas vai vairākas atšķirīgas ekonomiskās darbības (piemēram, veikals un kafejnīca), tad katru no tām uzskatīja par vietējo darbības veida vienību. Pavisam datu kopā ir 156 549 VDVV.</p> <h4 class=\"header-4\">Dzīvesvieta</h4> <p>Par nodarbināto personu faktisko dzīvesvietu pieņemta eksperimentālajā statistikā noteiktā adrese vai adrimistratīvā teritorija 2018. gada 1. janvārī (plašāk: <a href=\"https://www.csb.gov.lv/lv/statistika/statistikas-temas/iedzivotaji/teritoriala-eksperimentala/tabulas/metadati-faktiska-dzivesvieta-latvija). \">https://www.csb.gov.lv/lv/statistika/statistikas-temas/iedzivotaji/teritoriala-eksperimentala/tabulas/metadati-faktiska-dzivesvieta-latvija). </a><br><br> Iedzīvotāju skaita novērtējumā neiekļautām personām, kas guvušas darba ienākumus, pieņemta Iedzīvotāju reģistrā norādītā adrese, ja tā ir Latvijā.</p> <h4 class=\"header-4\">Datu avoti un ierobežojumi</h4> <p>Tirgus sektora ekonomiski aktīvo uzņēmumu VDVV apgrozījums, produkcijas vērtība, pievienotā vērtība un bruto kapitālieguldījumi materiālās lietās ir aprēķināti, izmantojot publiski pieejamos Gada pārskatus un Konsolidētos gada pārskatus.<br><br> Nodarbināto skaits aprēķināts, izmantojot VID un statistisko veidlapu 1-gada \"Kompleksais pārskats par uzņēmuma darbību\" un 2-darbs \"Pārskats par darbu\".<br><br> Zemnieku un zvejnieku saimniecībām, kam pamatdarbība ir NACE A \"Lauksaimniecība, mežsaimniecība un zivsaimniecība\" dati ir pieejami tikai par nodarbināto personu skaitu.<br><br> NACE sadaļai K \"Finanšu un apdrošināšanas darbības\" dati ir pieejami tikai par nodarbināto personu skaitu.<br><br> Palīgdarbībām, pat ja tās atrodas atsevišķā vienībā, piemēram, administrēšana, grāmatvedība, datu apstrāde, procesa uzraudzība, iepirkumi, pārvadāšana, remonts u.c., produkcijas vērtība, pievienotā vērtība netiek aprēķināta. Palīgdarbības tiek veiktas, lai vienība varētu ražot preces un pakalpojumus trešajām personām vai lai atvieglotu šo ražošanu. Palīgdarbību produktus pašus trešajām personām nepiegādā. Visas uzņēmuma palīgdarbību izmaksas ir attiecināmas uz uzņēmuma galvenajām un sekundārajām nozarēm (darbības veidiem pēc NACE).</p> <h3 class=\"header-3\">Aprēķins</h3> <h4 class=\"header-4\">Nodarbināto personu sasaiste ar vietējo darbības veida vienību</h4> <p>Administratīvajos datu avotos ir informācija tikai par personas nodarbinātību uzņēmumā, nevis vietējā veida darbības vienībā (VDVV). Personas darba vietas adrese VDVV līmenī tiek novērtēta, balstoties uz vairākiem pieņēmumiem:<br><br> Ja uzņēmumam ir tikai viena VDVV, tad visas tajā nodarbinātās personas tiek piesaistītas vienīgajam VDVV.<br><br> Ja uzņēmumam ir vairāk kā viena VDVV, tad nodarbinātās personas piesaiste VDVV tiek veikta, balstoties uz šādiem nosacījumiem:</p> <ul> <li>attiecībā uz iglītības nozarē nodarinātajiem, izmantojot Valsts izglītības informācijas sistēmas datus (turpmāk VIIS) persona tiek piesaistīta atbilstošajam VDVV, ja ir pietiekama VDVV nosaukumu līdzība starp VIIS izglītības iestāžu un VID struktūrvienību nosaukumiem. Pārējos gadījumos uzņēma ietvaros katra persona ir piesaistīta vienam VDVV.</li> <li>Personu skaita sadalījums pa VDVV tiek kontrolēts ar zināmo nodarbināto personu skaitu katrā VDVV. <ul> <li>Ja personu skaits ir vienāds ar uzņēmumā nodarbināto personu skaitu, tad personu skaita sadalījumam pa VDVV sakrīt ar zināmo VDVV nodarbināto personu skaitu.</li> <li>Ja piesaistīto personu skaits ir mazāks par uzņēmuma (visi viena uzņēmuma VDVV) nodarbināto kopskaitu, tad nodarbināto personu skaits katrā VDVV nepārsniedz zināmo VDVV nodarbināto personu skaitu.</li> <li>Ja piesaistīto personu skaits ir lielāks par visā uzņēmumā nodarbināto skaitu, tad personu skaita sadalījums pa VDVV tiek noteikts proporcionāls VDVV nodarbināto kopskaitam. Sakarā ar to, ka personu skaita sadalījumam ir jābūt izteiktam veselos skaitļos, tiek noteikta personu skaita sadalījuma apakšējā un augšējā robeža, kas ir aprēķinātas apaļojot uz leju un uz augšu (līdz veseliem skaitļiem) proporcionāli pārdalīto personu skaitu.</li> </ul> </li> </ul> <p>Katram piesaistītas nodarbinātās personas un VDVV pārim ir aprēķināta distance (pa ceļiem) no dzīves vietas līdz darba vietai (VDVV). Personas piesaiste VDVV tiek izvēlēta tāda, lai uzņēmuma ietvaros minimizētu visu personu summāro distanci no dzīves vietas līdz darba vietai.<br><br> Personām ar nezināmu dzīves vietu tiek pieņemts, ka distance ir 0 pret visām iespējamajām VDVV.<br><br> Distance pa ceļu tiek koriģēta (samazināta) atbilstoši personu profesijas un VDVV nozares atbilstībai. Ir definēti saskanīgu profesiju un nozaru pāri, piemēram, nodarbinātā persona ar profesiju \"skolotājs\" visdrīzāk būs nodarbināts VDVV ar ekonomisko darbību (nozari) \"skola\".<br><br> Personu piesaiste VDVV tiek noteikta katram uzņēmumam, definējot un atrisinot lineārās programmēšanas uzdevumu (Hornik, Meyer, Schwendinger, & Theussl, 2019; R Core Team, 2019; Schumacher, 2018a, 2018b; Theussl, 2017).</p> <h4 class=\"header-4\">Ekonomisko rādītāju sadale pa VDVV</h4> <p>Ekonomiskie rādītāji (izņemot nodarbināto skaitu) tiek sadalīti sekojoši:<br><br> Ja ir veikta nodarbinātās personas piesaiste VDVV:</p> <ul> <li>Ekonomiskie rādītāji tiek sadalīti katram nodarbinātajam proporcionāli tā darba ienākumiem.</li> <li>Pēc tam VDVV datus var aprēķināt, sasummējot VDVV piesaistīto nodarbināto personu datus.</li> </ul> <p>Ja nav veikta personas piesaiste VDVV (piemēram, VID datos nav informācijas par nodarbinātām personām vai visu uzņēmumā nodarbināto darba samaksas summa ir 0):</p> <ul> <li>Ja uzņēmumā nodarbināto skaits ir lielāks par 0, tad ekonomiskie rādītāji tiek sadalīti katram VDVV proporcionāli tajā nodarbināto personu skaitam;</li> <li>Ja uzņēmumā nodarbināto skaits ir 0, tad ekonomiskie rādītāji tiek sadalīti vienlīdzīgi katram VDVV (proporcionāli VDVV skaitam).</li> </ul> <h4 class=\"header-4\">Ekonomisko rādītāju sadale pa personām</h4> <p>Ekonomiskie rādītāji par nodarbinātām personām tiek pārdalīti proporcionāli to ienākumiem.</p> <h4 class=\"header-4\">Datu precizēšana</h4> <p>Dati var tikt precizēti iegūstot papildu vai detalizētāku informāciju gan no administratīvo datu avotiem, gan statistiskas respondentiem.</p>",
+        "<p>The tool supports the analysis of economic indicators by a person's place of residence or place of work. The tool allows you to analyse the geospatial location of jobs in the territory, the economic activities taking place in the territory - to find out the most important sectors in which companies or people living in the territory work. </p> <h3 class=\"header-3\">Explanation of terms</h3> <h4 class=\"header-4\">Added value</h4> <p>Added value is the increase in the market value of a product/service produced by a production unit (enterprise, local unit, local activity unit) as a result of economic activity. <br><br> Value added is calculated as the value of the output minus the value of intermediate consumption (the value of purchased goods and services used in production). <br><br> Negative value added is considered as 0.</p> <h4 class=\"header-4\">Value of output</h4><p>The value of output is the amount of goods or services produced, including changes in inventories and capitalised production (own-produced fixed and intangible assets), less goods and services purchased for resale. <br><br> The value of output may be negative if the enterprise has a decrease in stocks of finished goods and work in progress at the end of the reporting year compared with the beginning of the year. Goods sold below cost also have a negative value of production. A negative value of output is treated as 0.</p> <h4 class=\"header-4\">Employees</h4><p>Employed persons are workers with an employment or enterprise contract, whether in their main or secondary occupation, employers and self-employed persons.</p> <h4 class=\"header-4\">Workplace</h4> <p>Workplace is the address of the unit (branch, production unit) of an enterprise, its local activity. The address of the local unit is used only if the enterprise itself has registered it with the State Revenue Service (SRS) or provided it when filling in the statistical form. <br><br> A local activity unit (LAU) is an economic activity carried out at a specific address (LAUs are also distinguished for ancillary industries).In total, there are 156 549 LAUs in the data set.<br><br> For self-employed persons, the workplace address is the person's place of residence. The calculation uses data on 47 thousand self-employed persons.</p> <h4 class=\"header-4\">Local activity type unit (LALU)</h4><p>Every enterprise has at least one local business unit. A local KAU is recorded only if it is located in a geographically identifiable place, an economic activity is carried out at that place and one or more persons are employed during the relevant period, whether they were active for the whole or only part of the reference period. <br><br> If two or more distinct economic activities (e.g. a shop and a café) were present at the same address, each was considered a local unit of the type of activity. In total, there are 156 549 LFSUs in the dataset.</p> <h4 class=\"header-4\">Location of residence</h4> <p>The actual place of residence of employed persons is the address or adrimistrative area as defined in the experimental statistics on 1 January 2018 (for more information see <a href=\"https://www.csb.gov.lv/lv/statistika/statistikas-temas/iedzivotaji/teritoriala-eksperimentala/tabulas/metadati-faktiska-dzivesvieta-latvija). \"> https://stat.gov.lv/lv/metadati/8113-iedzivotaju-skaits-un-galvenie-demografiskie-raditaji-eksperimentala-statistika). </a><br><br> For persons not included in the population estimates who have earned an income from work, the address indicated in the Population Register is assumed if it is in Latvia. </p> <h4 class=\"header-4\">Data sources and limitations</h4> <p>GVA turnover, value of production, value added and gross fixed capital formation of economically active enterprises in the market sector are calculated using publicly available Annual Accounts and Consolidated Annual Accounts.<br><br> Number of employees is calculated using the SRS and statistical forms 1-Annual \"Comprehensive Report on Enterprise Activity\" and 2-Work \"Statement of Work\".</p> <h3 class=\"header-3\">Calculation</h3> <h4 class=\"header-4\">Linking employed persons to the local KAU</h4> <p>Administrative data sources contain information only on the employment of a person in an enterprise and not in the local KAU. The address of a person's place of work at the level of the LDC is estimated on the basis of several assumptions:<br><br> If an enterprise has only one LDC, then all persons employed in it are linked to the single LDC. <br><br> If an enterprise has more than one NMSU, then the person employed in the NMSU is linked to the NMSU based on the following conditions:</p> <ul> <li>For offences in the education sector, using data from the National Education Information System (hereafter VIIS), a person is linked to the corresponding NMSU if there is sufficient similarity between the NMSU names and the names of educational establishments and NHS units in the VIIS. Otherwise, within the host, each person is linked to a single NGSU.<li>The distribution of the number of persons per LDC is controlled by the known number of persons employed in each LDC. <ul> <li>If the number of persons is equal to the number of persons employed in the enterprise, then the distribution of the number of persons across the LSMS shall be consistent with the known number of persons employed in the LSMS.</li> <li>If the number of persons attached is less than the total number of persons employed in the enterprise (all LSMS of the same enterprise), then the number of persons employed in each LSMS shall not exceed the known number of persons employed in the LSMS. </li> <li>If the number of persons employed is greater than the number of persons employed in the whole enterprise, then the distribution of the number of persons among the LDCs shall be determined in proportion to the total number of persons employed in the LDCs. Because the distribution of persons must be expressed in whole numbers, lower and upper limits are set for the distribution of persons, which are calculated by rounding down and up (to whole numbers) in proportion to the number of persons reallocated.</li> </ul> </li></ul> <p>Employed persons are assigned to a couple and the distance (by road) from their place of residence to their place of work (GVA) is calculated for the GVA couple. The person's attachment to the PES is chosen in such a way as to minimise the cumulative distance from the place of residence to the place of work for all persons within the enterprise.<br><br> For persons with unknown place of residence, the distance is assumed to be 0 against all possible PES.<br><br> The distance by road is adjusted (reduced) according to the match between the occupation and the PES sector of the persons. Pairs of matching occupations and industries are defined, e.g. an employed person with the occupation \"teacher\" is most likely to be employed in an LHD with the economic activity (industry) \"school\".<br><br> The assignment of persons to LHDs is determined for each company by defining and solving a linear programming problem (Hornik, Meyer, Schwendinger, & Theussl, 2019; R Core Team, 2019; Schumacher, 2018a, 2018b; Theussl, 2017).</p><h4 class=\"header-4\">Distribution of economic indicators by LFS</h4> <p>Economic indicators (excluding number of employees) are distributed as follows:<br><br> If an employee is assigned to a LFS:</p> <ul> <li>Economic indicators are distributed to each employee in proportion to his/her labour income.</li> <li>The LFS data can then be calculated by summing the data of the employees assigned to the LFS. </li> </ul> <p>If no person has been linked to the LFS (e.g. no information on employed persons in the SRS data or the sum of wages of all persons employed in the enterprise is 0): </p> <ul> <li>If the number of persons employed in the enterprise is greater than 0, the economic indicators are allocated to each LDC in proportion to the number of persons employed in it;</li> <li>If the number of persons employed in the enterprise is 0, the economic indicators are allocated equally to each LDC (in proportion to the number of LDCs). </li> </ul> <h4 class=\"header-4\">Distribution of economic indicators by persons</h4> <p>Economic indicators for employed persons are redistributed in proportion to their income.</p> <h4 class=\"header-4\">Data update</h4> <p>Data may be updated by obtaining additional or more detailed information from both administrative data sources and statistical respondents.</p>",
+        true,
+        true
+    ],
+    "map-copyright-osm": [
+        "<p class=\"p7\">© <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\" class=\"p7\">OpenStreetMap</a> veidotāji</p>",
+        "<p class=\"p7\">© <a href=\"https://www.openstreetmap.org/copyright\" class=\"p7\" target=\"_blank\">OpenStreetMap</a> contributors</p>",
+        true,
+        false
+    ],
+    "map-copyright-orto": [
+        "<p class=\"p7\">© <a href=\"https://www.lvmgeo.lv/dati\" target=\"_blank\" class=\"p7\">LVM GEO</a>, <a href=\"https://www.lgia.gov.lv/lv/node/335\" target=\"_blank\" class=\"p7\">LĢIA</a></p>",
+        "<p class=\"p7\">© <a href=\"https://www.lvmgeo.lv/en/data\" target=\"_blank\" class=\"p7\">LVM GEO</a>, <a href=\"https://www.lgia.gov.lv/en/node/335\" target=\"_blank\" class=\"p7\">LGIA</a></p>",
+        true,
+        false
+    ],
+    "owner-name": [
+        "Centrālā statistikas pārvalde",
+        "Central Statistical Bureau",
+        true,
+        false
+    ],
+    "owner-site": [
+        "https://www.csb.gov.lv/lv",
+        "https://www.csb.gov.lv/en",
+        true,
+        false
+    ],
+    "owner-email": [
+        "info@csb.gov.lv",
+        "info@csb.gov.lv",
+        true,
+        false
+    ],
+    "csv-column-one_w_av": [
+        "Pievienotā vērtība",
+        "Value added",
+        true,
+        false
+    ],
+    "csv-column-one_w_vp": [
+        "Produkcijas vērtība",
+        "Value produced",
+        true,
+        false
+    ],
+    "csv-column-one_h_e": [
+        "Nodarbināto iedzīvotāju skaits",
+        "Number of employed",
+        true,
+        false
+    ],
+    "csv-column-one_h_av": [
+        "Pievienotā vērtība",
+        "Value added",
+        true,
+        false
+    ],
+    "csv-column-one_h_vp": [
+        "Produkcijas vērtība",
+        "Value produced",
+        true,
+        false
+    ],
+    "csv-column-two_h_vp": [
+        "Produkcijas vērtība uz vienu nodarbināto",
+        "Value produced per employee",
+        true,
+        false
+    ],
+    "csv-column-two_w_vp": [
+        "Produkcijas vērtība uz vienu darbvietu",
+        "Value produced per workplace",
+        true,
+        false
+    ],
+    "data-list-total": [
+        "Kopā",
+        "Total",
+        true,
+        false
+    ],
+    "file-m2-vp": [
+        "produkcijas-vertiba",
+        "value-produced",
+        true,
+        false
+    ],
+    "landing-title-av": [
+        "Pievienotā vērtība",
+        "Value added",
+        true,
+        false
+    ],
+    "csv-column-two_h_e": [
+        "Nodarbināto iedzīvotāju skaits uz 100 iedzīvotājiem",
+        "Employed per 100 population",
+        true,
+        false
+    ],
+    "csv-column-two_w_e": [
+        "Darbvietu skaits uz 100 iedzīvotājiem",
+        "Workplaces per 100 population",
+        true,
+        false
+    ],
+    "csv-column-two_w_av": [
+        "Pievienotā vērtība uz vienu darbvietu",
+        "Value added per workplace",
+        true,
+        false
+    ],
+    "data-list-out": [
+        "Ārpus teritorijas",
+        "Outside territory",
+        true,
+        false
+    ],
+    "map-no-data-info": [
+        "Trūkst datu par izvēlēto teritoriju",
+        "No data on selected territory",
+        true,
+        false
+    ],
+    "legend-no-data-info": [
+        "Trūkst datu",
+        "No data",
+        true,
+        false
+    ],
+    "data-list-conf": [
+        "Konfidenciāli dati",
+        "Confidential data",
+        true,
+        false
+    ],
+    "data-list-unk": [
+        "Nezināma teritorija",
+        "Unknown territory",
+        true,
+        false
+    ],
+    "data-list-corr": [
+        "Korekcija",
+        "Correction",
+        true,
+        false
+    ],
+    "file-all-country": [
+        "latvija",
+        "latvia",
+        true,
+        false
+    ],
+    "footer-owner-title": [
+        "Centrālā statistikas pārvalde",
+        "Central Statistical Bureau of Latvia",
+        true,
+        false
+    ],
+    "footer-owner": [
+        "https://www.csp.gov.lv/lv",
+        "https://www.csp.gov.lv/en",
+        true,
+        false
+    ],
+    "footer-phone-title": [
+        "Tālrunis",
+        "Phone",
+        true,
+        false
+    ],
+    "footer-phone": [
+        "67366922",
+        "+ 371 67366922",
+        true,
+        false
+    ],
+    "footer-mail-title": [
+        "e-pasts",
+        "e-mail",
+        true,
+        false
+    ],
+    "footer-mail": [
+        "info@csp.gov.lv",
+        "info@csp.gov.lv",
+        true,
+        false
+    ],
+    "footer-about-text": [
+        "CSV datnes skaidrojums, papildmērvienību nosaukumi latviešu valodā un citas atbildes uz jautājumiem",
+        "Explanation of the CSV file structure and abbreviations of supplementary units as well as answers to other questions.",
+        true,
+        false
+    ],
+    "footer-api-title": [
+        "API",
+        "API",
+        true,
+        false
+    ],
+    "ui-dropdown-3-label": [
+        "",
+        "",
+        true,
+        false
+    ],
+    "yy": [
+        "sdfgssdfgs",
+        "sdfgsdfgs",
+        true,
+        false
+    ],
+    "tool-landing-desc": [
+        "Ekonomisko aktivitāti raksturojoši rādītāji pēc personas dzīves un darba vietas par [year]. gadu",
+        "Indicators on economic activity by person&apos;s place of residence and work in [year]",
+        true,
+        false
+    ],
+    "footer-group-contacts": [
+        "Kontakti",
+        "Contacts",
+        true,
+        false
+    ],
+    "footer-group-other": [
+        "Papildus informācija",
+        "Other",
+        true,
+        false
+    ],
+    "footer-copyright": [
+        "© 2023 Centrālā statistikas pārvalde",
+        "© 2023 Central Statistical Bureau of Latvia",
+        true,
+        false
+    ],
+    "tool-top-menu-title": [
+        "tools.csb.gov.lv/tea",
+        "tools.csb.gov.lv/tea",
+        true,
+        false
+    ],
+    "settings-button-map": [
+        "Karte",
+        "Map",
+        true,
+        false
+    ],
+    "settings-button-about": [
+        "Par projektu",
+        "About project",
+        true,
+        false
+    ],
+    "settings-button-api": [
+        "API",
+        "API",
+        true,
+        false
+    ],
+    "api-title": [
+        "API funkcijas",
+        "API functions",
+        true,
+        false
+    ],
+    "api-description": [
+        "Šeit pieejams pilns saraksts ar API funkcijām, kuras tiek izmantotas datu vizualizēšanai",
+        "Complete list of all API functions used in this project to visualize data",
+        true,
+        false
+    ],
+    "api-f1": [
+        "menu-years",
+        "menu-years",
+        true,
+        false
+    ],
+    "api-f1-descr": [
+        "Atgriež pieejamos gadus.",
+        "Return available years.",
+        true,
+        false
+    ],
+    "api-f1-url": [
+        "[host]/api?db=menu-years",
+        "[host]/api?db=menu-years",
+        true,
+        false
+    ],
+    "api-f1-table": [
+        "db:funkcijas nosaukums - &apos;menu-years&apos;",
+        "db:name of function - &apos;menu-years&apos;",
+        true,
+        false
+    ],
+    "api-f2": [
+        "menu-naces",
+        "menu-naces",
+        true,
+        false
+    ],
+    "api-f2-descr": [
+        "Atgriež visu nozaru kodus.",
+        "Return all industry codes.",
+        true,
+        false
+    ],
+    "api-f2-url": [
+        "[host]/api?db=menu-naces",
+        "[host]/api?db=menu-naces",
+        true,
+        false
+    ],
+    "api-f2-table": [
+        "db:funkcijas nosaukums - &apos;menu-naces&apos;",
+        "db:name of function - &apos;menu-naces&apos;",
+        true,
+        false
+    ],
+    "api-f3": [
+        "menu-profs",
+        "menu-profs",
+        true,
+        false
+    ],
+    "api-f3-descr": [
+        "Atgriež visu profesiju kodus.",
+        "Return all occupation codes.",
+        true,
+        false
+    ],
+    "api-f3-url": [
+        "[host]/api?db=menu-profs",
+        "[host]/api?db=menu-profs",
+        true,
+        false
+    ],
+    "api-f3-table": [
+        "db:funkcijas nosaukums - &apos;menu-profs&apos;",
+        "db:name of function - &apos;menu-profs&apos;",
+        true,
+        false
+    ],
+    "api-f4": [
+        "menu-sectors",
+        "menu-sectors",
+        true,
+        false
+    ],
+    "api-f4-descr": [
+        "Atgriež visu sektoru kodus.",
+        "Return all sector codes.",
+        true,
+        false
+    ],
+    "api-f4-url": [
+        "[host]/api?db=menu-sectors",
+        "[host]/api?db=menu-sectors",
+        true,
+        false
+    ],
+    "api-f4-table": [
+        "db:funkcijas nosaukums - &apos;menu-sectors&apos;",
+        "db:name of function - &apos;menu-sectors&apos;",
+        true,
+        false
+    ],
+    "api-f5": [
+        "menu-territories",
+        "menu-territories",
+        true,
+        false
+    ],
+    "api-f5-descr": [
+        "Atgriež visas teritorijas pēc &apos;level&apos;, &apos;year&apos;.",
+        "Return all territories by &apos;level&apos;, &apos;year&apos;.",
+        true,
+        false
+    ],
+    "api-f5-url": [
+        "[host]/api?db=menu-territories&level=3&year=2017",
+        "[host]/api?db=menu-territories&level=3&year=2017",
+        true,
+        false
+    ],
+    "api-f5-table": [
+        "db:funkcijas nosaukums - &apos;menu-territories&apos;^level:teritorijas veids - &apos;3&apos;, &apos;4&apos;, &apos;7&apos;^year:izvēlētais gads",
+        "db:function name - &apos;menu-territories&apos;^level:territory level - &apos;3&apos;, &apos;4&apos;, &apos;7&apos;^year:chosen year",
+        true,
+        false
+    ],
+    "api-f6": [
+        "menu-territory-name",
+        "menu-territory-name",
+        true,
+        false
+    ],
+    "api-f6-descr": [
+        "Atgriež teritoriju pēc &apos;code&apos;, &apos;level&apos;, &apos;year&apos;.",
+        "Return territory by &apos;code&apos;, &apos;level&apos;, &apos;year&apos;.",
+        true,
+        false
+    ],
+    "api-f6-url": [
+        "[host]/api?db=menu-territory-name&level=3&code=LV0023000&year=2017",
+        "[host]/api?db=menu-territory-name&level=3&code=LV0023000&year=2017",
+        true,
+        false
+    ],
+    "api-f6-table": [
+        "db:funkcijas nosaukums - &apos;menu-territory-name&apos;^code:teritorijas kods - &apos;LV0023000&apos;^level:teritorijas līmenis - &apos;3&apos;, &apos;4&apos;, &apos;7&apos;^year:izvēlētais gads - &apos;2017&apos;",
+        "db:function name - &apos;menu-territory-name&apos;^code:territory code - &apos;LV0023000&apos;^level:territory level - &apos;3&apos;, &apos;4&apos;, &apos;7&apos;^year:chosen year - &apos;2017&apos;",
+        true,
+        false
+    ],
+    "api-f7": [
+        "title",
+        "title",
+        true,
+        false
+    ],
+    "api-f7-descr": [
+        "atgriež visus virsrakstus vizualizācijai pēc  parametriem &apos;lang&apos;, &apos;year&apos;, &apos;m1&apos;, &apos;m2&apos;,&apos;m3&apos;, &apos;m4&apos;, &apos;t1&apos;, &apos;t2&apos;",
+        "Return all visualization titles by parameters &apos;lang&apos;, &apos;year&apos;, &apos;m1&apos;, &apos;m2&apos;,&apos;m3&apos;, &apos;m4&apos;, &apos;t1&apos;, &apos;t2&apos;",
+        true,
+        false
+    ],
+    "api-f7-url": [
+        "[host]/api?db=title&lang=lv&year=2017&m1=h&m2=e&m3=none&m4=none&t1=3&t2=LV0023000",
+        "[host]/api?db=title&lang=lv&year=2017&m1=h&m2=e&m3=none&m4=none&t1=3&t2=LV0023000",
+        true,
+        false
+    ],
+    "api-f7-table": [
+        "db:funkcijas nosaukums - &apos;title&apos;^lang:valoda - &apos;lv&apos;, &apos;en&apos;^year:izvēletais gads^m1:darba vieta vai dzīvesvieta - &apos;w&apos;,&apos;h&apos;^m2:rādītājs - nodarbināto skaits vai pievienotā vērtība vai produkcijas vērtība - &apos;e&apos;,&apos;av&apos;,&apos;vp&apos;^m3:papildus rādītājs - nozare,profesija,sektors,none - &apos;i&apos;, &apos;p&apos;, &apos;s&apos;, &apos;none&apos;^m4:papildus rādītāja kods^t1:teritorijas līmenis - &apos;3&apos;,&apos;4&apos;,&apos;7&apos;^t2:izvēlētās teritorijas kods - &apos;LV0023000&apos;^",
+        "db:function name - &apos;title&apos;^lang:language - &apos;lv&apos;, &apos;en&apos;^year:chosen year^m1:place of work or place of rezidence - &apos;w&apos;,&apos;h&apos;^m2:variable selection - number of eployees or value added or value produced - &apos;e&apos;,&apos;av&apos;,&apos;vp&apos;^m3:breakdown - industry,profession,sector,none - &apos;i&apos;, &apos;p&apos;, &apos;s&apos;, &apos;none&apos;^m4:breakdown code^t1:territory level - &apos;3&apos;,&apos;4&apos;,&apos;7&apos;^t2:code of chosen territory - &apos;LV0023000&apos;^",
+        true,
+        false
+    ],
+    "api-f8": [
+        "data-table-list",
+        "data-table-list",
+        true,
+        false
+    ],
+    "api-f8-descr": [
+        "Dati tabulas skatam. Atgriež visu teritoriju datus pēc parametriem &apos;lang&apos;, &apos;year&apos;, &apos;m1&apos;, &apos;m2&apos;,&apos;m3&apos;, &apos;m4&apos;, &apos;t1&apos;, &apos;t2&apos;",
+        "Data for table view. return all territories data by parameters &apos;lang&apos;, &apos;year&apos;, &apos;m1&apos;, &apos;m2&apos;,&apos;m3&apos;, &apos;m4&apos;, &apos;t1&apos;, &apos;t2&apos;",
+        true,
+        false
+    ],
+    "api-f8-url": [
+        "[host]/api?db=title&lang=lv&year=2017&m1=h&m2=e&m3=none&m4=none&t1=3&t2=LV0023000",
+        "[host]/api?db=title&lang=lv&year=2017&m1=h&m2=e&m3=none&m4=none&t1=3&t2=LV0023000",
+        true,
+        false
+    ],
+    "api-f8-table": [
+        "db:funkcijas nosaukums - &apos;data-table-list&apos;^lang:valoda - &apos;lv&apos;, &apos;en&apos;^year:izvēletais gads^m1:darba vieta vai dzīvesvieta - &apos;w&apos;,&apos;h&apos;^m2:rādītājs - nodarbināto skaits vai pievienotā vērtība vai produkcijas vērtība - &apos;e&apos;,&apos;av&apos;,&apos;vp&apos;^m3:papildus rādītājs - nozare,profesija,sektors,none - &apos;i&apos;, &apos;p&apos;, &apos;s&apos;, &apos;none&apos;^m4:papildus rādītāja kods^t1:teritorijas līmenis - &apos;3&apos;,&apos;4&apos;,&apos;7&apos;^t2:izvēlētās teritorijas kods - &apos;LV0023000&apos;,&apos;all&apos;",
+        "db:function name - &apos;data-table-list&apos;^lang:language - &apos;lv&apos;, &apos;en&apos;^year:chosen year^m1:place of work or place of rezidence - &apos;w&apos;,&apos;h&apos;^m2:variable selection - number of eployees or value added or value produced - &apos;e&apos;,&apos;av&apos;,&apos;vp&apos;^m3:breakdown - industry,profession,sector,none - &apos;i&apos;, &apos;p&apos;, &apos;s&apos;, &apos;none&apos;^m4:breakdown code^t1:territory level - &apos;3&apos;,&apos;4&apos;,&apos;7&apos;^t2:code of chosen territory - &apos;LV0023000&apos;,&apos;all&apos;",
+        true,
+        false
+    ],
+    "api-f9": [
+        "map-centroids",
+        "map-centroids",
+        true,
+        false
+    ],
+    "api-f9-descr": [
+        "Atgriež visu teritoriju centroīdus pēc parametriem &apos;t1&apos;, &apos;year&apos;",
+        "Return territories centroids by parameters &apos;t1&apos;, &apos;year&apos;",
+        true,
+        false
+    ],
+    "api-f9-url": [
+        "[host]/api?db=map-centroids&t1=3&year=2017",
+        "[host]/api?db=map-centroids&t1=3&year=2017",
+        true,
+        false
+    ],
+    "api-f9-table": [
+        "db:funkcijas nosaukums - &apos;map-centroids&apos;^t1:teritorijas līmenis - &apos;3&apos;,&apos;4&apos;,&apos;7&apos;^year:izvēletais gads",
+        "db:function name - &apos;map-centroids&apos;^t1:territory level - &apos;3&apos;,&apos;4&apos;,&apos;7&apos;^year:chosen year",
+        true,
+        false
+    ],
+    "api-f10": [
+        "viz-circles",
+        "viz-circles",
+        true,
+        false
+    ],
+    "api-f10-descr": [
+        "Atgriež datus kartes vizualizācijai, ja nav izvēlēts papildus dalījums M3. Parametri &apos;m1&apos;, &apos;m2&apos;, &apos;t1&apos;, &apos;year&apos;",
+        "Return data for map visualization if M3 isn&apos;t chosen. Parameters &apos;m1&apos;, &apos;m2&apos;, &apos;t1&apos;, &apos;year&apos;",
+        true,
+        false
+    ],
+    "api-f10-url": [
+        "[host]/api?db=viz-circles&m1=w&m2=av&t1=3&year=2017",
+        "[host]/api?db=viz-circles&m1=w&m2=av&t1=3&year=2017",
+        true,
+        false
+    ],
+    "api-f10-table": [
+        "db:funkcijas nosaukums - &apos;viz-circles&apos;^m1:darba vieta vai dzīvesvieta - &apos;w&apos;,&apos;h&apos;^m2:rādītājs - nodarbināto skaits vai pievienotā vērtība vai produkcijas vērtība - &apos;e&apos;,&apos;av&apos;,&apos;vp&apos;^t1:teritorijas līmenis - &apos;3&apos;,&apos;4&apos;,&apos;7&apos;^year:izveletais gads - &apos;2017&apos;",
+        "db:function name - &apos;viz-circles&apos;^m1:place of work or place of rezidence - &apos;w&apos;,&apos;h&apos;^m2:variable selection - number of eployees or value added or value produced - &apos;e&apos;,&apos;av&apos;,&apos;vp&apos;^t1:territory level - &apos;3&apos;,&apos;4&apos;,&apos;7&apos;^year:chosen year - &apos;2017&apos;",
+        true,
+        false
+    ],
+    "api-f11": [
+        "viz-circles-region",
+        "viz-circles-region",
+        true,
+        false
+    ],
+    "api-f11-descr": [
+        "Atgriež datus kartes vizualizācijai izvēlētai teritorijai, ja nav izvēlēts papildus dalījums M3. Parametri &apos;m1&apos;, &apos;m2&apos;, &apos;t1&apos;, &apos;year&apos;",
+        "Return data for map visualization for selected territory if M3 isn&apos;t chosen. Parameters &apos;m1&apos;, &apos;m2&apos;, &apos;t1&apos;, &apos;year&apos;",
+        true,
+        false
+    ],
+    "api-f11-url": [
+        "[host]/api?db=viz-circles-region&m1=w&m2=av&t1=3&t2=LV0023000&year=2017",
+        "[host]/api?db=viz-circles-region&m1=w&m2=av&t1=3&t2=LV0023000&year=2017",
+        true,
+        false
+    ],
+    "api-f11-table": [
+        "db:funkcijas nosaukums - &apos;viz-circles-region&apos;^m1:darba vieta vai dzīvesvieta - &apos;w&apos;,&apos;h&apos;^m2:rādītājs - nodarbināto skaits vai pievienotā vērtība vai produkcijas vērtība - &apos;e&apos;,&apos;av&apos;,&apos;vp&apos;^t1:teritorijas līmenis - &apos;3&apos;,&apos;4&apos;,&apos;7&apos;^t2:teritorijas kods -, &apos;LV0023000&apos;^year:izveletais gads - &apos;2017&apos;",
+        "db:function name - &apos;viz-circles&apos;^m1:place of work or place of rezidence - &apos;w&apos;,&apos;h&apos;^m2:variable selection - number of eployees or value added or value produced - &apos;e&apos;,&apos;av&apos;,&apos;vp&apos;^t1:territory level - &apos;3&apos;,&apos;4&apos;,&apos;7&apos;^t2:teritory code -, &apos;LV0023000&apos;^year:chosen year - &apos;2017&apos;",
+        true,
+        false
+    ],
+    "api-f12": [
+        "viz-circles-sectors",
+        "viz-circles-sectors",
+        true,
+        false
+    ],
+    "api-f12-descr": [
+        "Atgriež datus kartes vizualizācijai, ja ir izvēlēts papildus dalījums M3. Parametri &apos;m1&apos;, &apos;m2&apos;, &apos;m3&apos;,&apos;m4&apos;, &apos;t1&apos;, &apos;year&apos;",
+        "Return data for map visualization if M3 has chosen. Parameters &apos;m1&apos;, &apos;m2&apos;, &apos;m3&apos;, &apos;m4&apos;, &apos;t1&apos;, &apos;year&apos;",
+        true,
+        false
+    ],
+    "api-f12-url": [
+        "[host]/api?db=viz-circles-sectors&m1=w&m2=av&m3=i&m4=A&t1=3&year=2017",
+        "[host]/api?db=viz-circles-sectors&m1=w&m2=av&m3=i&m4=A&t1=3&year=2017",
+        true,
+        false
+    ],
+    "api-f12-table": [
+        "db:funkcijas nosaukums - &apos;viz-circles-sectors&apos;^m1:darba vieta vai dzīvesvieta - &apos;w&apos;,&apos;h&apos;^m2:rādītājs - nodarbināto skaits, pievienotā vērtība, produkcijas vērtība - &apos;e&apos;,&apos;av&apos;,&apos;vp&apos;^m3:papildus dalījums -  nozares,profesijas,sektori - &apos;i&apos;,&apos;p&apos;,&apos;s&apos;^m4:izvēlētā papildus dalījuma kods - &apos;A&apos;^t1:teritorijas līmenis - &apos;3&apos;,&apos;4&apos;,&apos;7&apos;^year:izveletais gads - &apos;2017&apos;",
+        "db:function name - &apos;viz-circles-sectors&apos;^m1:place of work or place of rezidence - &apos;w&apos;,&apos;h&apos;^m2:variable selection - number of eployees, value added, value produced - &apos;e&apos;,&apos;av&apos;,&apos;vp&apos;^m3:breakdown -  industry,occupation,sector - &apos;i&apos;,&apos;p&apos;,&apos;s&apos;^m4:breakdown code - &apos;A&apos;^t1:territory level - &apos;3&apos;,&apos;4&apos;,&apos;7&apos;^year:chosen year - &apos;2017&apos;",
+        true,
+        false
+    ],
+    "api-f13": [
+        "viz-sectors-regions",
+        "viz-sectors-regions",
+        true,
+        false
+    ],
+    "api-f13-descr": [
+        "Atgriež datus kartes vizualizācijai izvēlētai teritorijai, ja ir izvēlēts papildus dalījums M3. Parametri &apos;m1&apos;, &apos;m2&apos;, &apos;m3&apos;,&apos;m4&apos;, &apos;t1&apos;, &apos;t2&apos;, &apos;year&apos;",
+        "Return data for map visualization for chosen territory if M3 has chosen. Parameters &apos;m1&apos;, &apos;m2&apos;, &apos;m3&apos;, &apos;m4&apos;, &apos;t1&apos;, &apos;t2&apos;, &apos;year&apos;",
+        true,
+        false
+    ],
+    "api-f13-url": [
+        "[host]/api?db=viz-circles-sectors-region&m1=w&m2=av&m3=i&m4=A&t1=3&t2=LV0029000&year=2017",
+        "[host]/api?db=viz-circles-sectors-region&m1=w&m2=av&m3=i&m4=A&t1=3&t2=LV0029000&year=2017",
+        true,
+        false
+    ],
+    "api-f13-table": [
+        "db:funkcijas nosaukums - &apos;viz-sectors-regions&apos;^m1:darba vieta vai dzīvesvieta - &apos;w&apos;,&apos;h&apos;^m2:rādītājs - nodarbināto skaits, pievienotā vērtība, produkcijas vērtība - &apos;e&apos;,&apos;av&apos;,&apos;vp&apos;^m3:papildus dalījums -  nozares,profesijas,sektori - &apos;i&apos;,&apos;p&apos;,&apos;s&apos;^m4:izvēlētā papildus dalījuma kods - &apos;A&apos;^t1:teritorijas līmenis - &apos;3&apos;,&apos;4&apos;,&apos;7&apos;^t2:teritorijas kods - &apos;LV0029000&apos;^year:izveletais gads - &apos;2017&apos;",
+        "db:function name - &apos;viz-sectors-regions&apos;^m1:place of work or place of rezidence - &apos;w&apos;,&apos;h&apos;^m2:variable selection - number of eployees, value added, value produced - &apos;e&apos;,&apos;av&apos;,&apos;vp&apos;^m3:breakdown -  industry,occupation,sector - &apos;i&apos;,&apos;p&apos;,&apos;s&apos;^m4:breakdown code - &apos;A&apos;^t1:territory level - &apos;3&apos;,&apos;4&apos;,&apos;7&apos;^t2:teritory code - &apos;LV0029000&apos;^year:chosen year - &apos;2017&apos;",
+        true,
+        false
+    ],
+    "table-download-label": [
+        "Lejupielādēt *.csv failu:",
+        "Download *.csv file:",
+        true,
+        false
+    ],
+    "settings-button-close-mobile": [
+        "Skatīt karti",
+        "View map",
+        true,
+        false
+    ],
+    "META-description-about": [
+        "Skaidrojums par rīkā izmantotajiem datiem, to aprēķināšanu un terminiem",
+        "Explanation of the data used in the tool, its calculation and terms",
+        true,
+        false
+    ],
+    "META-description-landing": [
+        "Rīks sniedz atbalstu ekonomisko rādītāju analīzei pēc iedzīvotāja dzīvesvietas vai darba vietas. Izmantojot rīku iespējams analizēt teritorijā dzīvojošo darba vietu ģeotelpisko novietojumu, teritorijā notiekošās ekonomiskās aktivitātes - noskaidrot svarīgākās nozares, kurās strādā teritorijas uzņēmumi vai teritorijā dzīvojošie.",
+        "The tool provides support for the analysis of economic indicators by the resident&apos;s place of residence or workplace. Using the tool, it is possible to analyze the geospatial location of the workplaces living in the territory, the economic activities taking place in the territory - to find out the most important industries in which the companies of the territory or the people living in the territory work.",
+        true,
+        false
+    ],
+    "META-title-landing": [
+        "Teritoriju ekonomiskā attīstība",
+        "Economic development of territories",
+        true,
+        false
+    ],
+    "META-title-about": [
+        "Teritoriju ekonomiskā attīstība > Par projektu",
+        "Economic development of territories > About project",
+        true,
+        false
+    ],
+    "META-title-api": [
+        "Teritoriju ekonomiskā attīstība > API",
+        "Economic development of territories > API",
+        true,
+        false
+    ],
+    "META-description-api": [
+        "Apraksts par API funkcijām, kuras tiek izmantotas datu vizualizēšanai.",
+        "Description of API functions used for data visualization.",
+        true,
+        false
+    ],
+    "META-title-map": [
+        "Teritoriju ekonomiskā attīstība > Karte",
+        "Economic development of territories > Map",
+        true,
+        false
+    ],
+    "tool-landing-title": [
+        "Teritoriju ekonomiskā attīstība",
+        "Economic development of territories",
+        true,
+        false
+    ],
+    "year-label": [
+        "Gads",
+        "Year",
+        true,
+        false
+    ],
+    "landing-description-av": [
+        "Pievienotā vērtība ir ražošanas vienības (uzņēmuma, vietējās vienības, vietējās darbības veida vienības) saražotā produkta/sniegtā pakalpojuma tirgus vērtības pieaugums, kas radies saimnieciskās darbības rezultātā.",
+        "Value added is the increase in the market value of a product/service produced by a production unit (enterprise, local unit, local activity unit) as a result of economic activity.",
+        true,
+        false
+    ],
+    "landing-description-e": [
+        "Nodarbinātie ir darbinieki ar darba vai uzņēmuma līgumu gan pamatdarbā, gan blakusdarbā, darba devēji un pašnodarbinātie.",
+        "Employees are workers with an employment or enterprise contract, whether in their main or secondary occupation, employers and the self-employed.",
+        true,
+        false
+    ],
+    "landing-description-vp": [
+        "Produkcijas vērtība ir saražotās produkcijas vai sniegto pakalpojumu apjoms, ieskaitot krājumu izmaiņas un kapitalizēto produkciju (saviem spēkiem saražotos pamatlīdzekļus un nemateriālos ieguldījumus), atskaitot tālākai pārdošanai iegādātās preces un pakalpojumus.",
+        "The value of output is the amount of goods or services produced, including changes in inventories and capitalised production (own-produced fixed and intangible assets), less goods and services purchased for resale.",
+        true,
+        false
+    ]
+}

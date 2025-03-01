@@ -1,0 +1,18 @@
+<div class="csb-app" #aboutViewArea id="csbApp">
+  <div class="csb-top-menu">
+    <app-top-menu></app-top-menu>
+  </div>
+  <div class="csb-container">
+    <main class="csb-content-max">
+      <div class="clr-row">
+        <div class="clr-col-sm-12">
+          <app-big-title [title_id]="'about-view-title'" [verticalGap]="true"></app-big-title>
+          <div class="csb-about-text" [innerHTML]="description?.name"></div>
+          <button class="btn btn-primary mod--button csb-about-button" (click)="close()" ariaEnabled>{{buttonBack?.name}}</button>
+        </div>
+      </div>
+    </main>
+  </div>
+  <app-footer [containerID]="'csbApp'"></app-footer>
+  <app-scroll-top [containerID]="'csbApp'"></app-scroll-top>
+</div>

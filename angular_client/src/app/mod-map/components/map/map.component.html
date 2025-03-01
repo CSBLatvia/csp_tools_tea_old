@@ -1,0 +1,26 @@
+<div id="mapArea" #mapArea [ngClass]="screenshot==false?
+                                (
+                                    mobile==false?
+                                    (
+                                      mapIsFullScreen==false?(settingsVisible==true?'csb-map-container-with-menu':'csb-map-container'):'csb-map-container-full'
+                                    )
+                                    :(
+                                      mapIsFullScreen==false?(settingsVisible==true?'csb-map-container-hidden':'csb-map-container'):'csb-map-container-full'
+                                    )
+                                ):'csb-map-container-screenshot'
+
+    ">
+    <app-mapbox
+      [route]="route"
+      [lang]="lang"
+      [initialized]="initialized"
+      [mobile]="mobile"
+      [mapFullScreen]="mapIsFullScreen"
+      [settingsVisible]="settingsVisible"
+      [legendIsVisible]="legendIsVisible"
+      (onSettingsChange)="onSettingsChange($event)"
+      (onLegendChange)="onLegendChange($event)"
+      (onFullScreenChange)="onFullScreenChange($event)"
+    ></app-mapbox>
+
+</div>
