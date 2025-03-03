@@ -11,7 +11,7 @@ TEA is an interactive data visualization application that provides economic anal
 The project is divided into two main components:
 
 - **Angular Client**: Frontend application built with Angular 16.2.12 and Clarity Design System
-- **Server Side**: Backend services built with PHP
+- **Server Side**: PostgreSQL schema and backend services built with PHP
 
 ## Components
 
@@ -39,11 +39,12 @@ The PHP service provides API endpoints for the Angular client, handling:
 
 For detailed API documentation including available endpoints, request formats, and response structures, see [serverside/README.md](serverside/README.md).
 
+See [serverside/postgresql/README.md](serverside/postgresql/README.md) for PostgreSQL scripts to define database schema, import data, define user interface texts and create JSON retrieval functions.
 ## Getting Started
 
 To set up the complete application:
 
-1. Set up the server-side component following the instructions in [serverside/README.md](serverside/README.md)
+1. Set up the server-side component following the instructions in [serverside/postgresql/README.md](serverside/postgresql/README.md) and [serverside/README.md](serverside/README.md)
 2. Set up the client-side component following the instructions in [angular_client/README.md](angular_client/README.md)
 3. Configure the client to connect to the server by updating the configuration files as needed
 
@@ -52,4 +53,3 @@ To set up the complete application:
 - **Frontend**: Angular 16.2.12, Clarity Design System 16.2.0, ngx-slider-v2 16.0.2
 - **Backend**: PHP 7.4, PostgreSQL
 - **Infrastructure**: Web server (Nginx)
-
